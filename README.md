@@ -4,11 +4,11 @@
 [other PostCSS plugins]: https://github.com/postcss/postcss#plugins
 [postcss-cli]: https://github.com/postcss/postcss-cli
 
-<h1 align="center">
+<h1>
   postcss-global-important-plugin
 </h1>
 
-<div align="center">
+<div>
   <img alt="npm" src="https://img.shields.io/npm/v/postcss-global-important-plugin">
   <img alt="npm" src="https://img.shields.io/npm/dy/postcss-global-important-plugin">
   <img alt="npm" src="https://img.shields.io/badge/coverage-100%25-green">
