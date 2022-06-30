@@ -5,7 +5,7 @@
 [postcss-cli]: https://github.com/postcss/postcss-cli
 # postcss-global-important-plugin
 
-[postcss-global-important-plugin] that turns elements under `:global` in css-module into important
+[postcss-global-important-plugin] that turns css properties under `:global` in css-module into important
 
 ``` diff
 .container {
@@ -53,9 +53,8 @@ module.exports = {
 ```
 
 ### CLI
-
 You can use the [postcss-cli] to run  [postcss-global-important-plugin] from CLI:
-
 ```sh
+npm install postcss-cli postcss-global-important-plugin -D
 npx postcss *.css --use postcss-global-important-plugin -d build/
 ```
