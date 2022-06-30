@@ -1,6 +1,6 @@
 {
   "name": "postcss-global-important-plugin",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "a postcss plugin that turns elements under :global in css-module into important",
   "exports": {
     ".": {
@@ -18,8 +18,8 @@
   "scripts": {
     "dev": "cd example && pnpm i && pnpm run dev && cd ../",
     "pub": "pnpm run build && pnpm publish --access public",
-    "clean": "rm -rf dist/ && rm -rf node_modules/",
-    "build": "pnpm clean && pnpm i && rollup --config rollup.config.ts --configPlugin typescript"
+    "clean": "rimraf dist/",
+    "build": "pnpm i && pnpm clean && rollup --config rollup.config.ts --configPlugin typescript"
   },
   "keywords": [
     "css-module",
@@ -41,6 +41,7 @@
     "@rollup/plugin-typescript": "^8.3.1",
     "@types/node": "^18.0.0",
     "postcss": "^8.4.14",
+    "rimraf": "^3.0.2",
     "rollup": "^2.69.0",
     "tslib": "^2.3.1",
     "typescript": "^4.6.4"
