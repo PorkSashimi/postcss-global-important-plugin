@@ -21,7 +21,7 @@
     "dev": "cd example && pnpm i && pnpm run dev && cd ../",
     "pub": "pnpm run build && pnpm publish --access public",
     "clean": "rimraf dist/",
-    "build": "pnpm i && pnpm clean && rollup --config rollup.config.ts --configPlugin typescript"
+    "build": "pnpm i && pnpm test:run & pnpm clean && rollup --config rollup.config.ts --configPlugin typescript"
   },
   "keywords": [
     "css-module",
