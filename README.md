@@ -5,7 +5,8 @@
 [postcss-cli]: https://github.com/postcss/postcss-cli
 # postcss-global-important-plugin
 
-[postcss-global-important-plugin] that turns css properties under `:global` in css-module into important
+## Features
+turns css properties under `:global` in css-module into important
 
 ``` diff
 .container {
