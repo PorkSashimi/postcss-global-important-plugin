@@ -1,6 +1,6 @@
 {
   "name": "postcss-global-important-plugin",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "a postcss plugin that turns elements under :global in css-module into important",
   "exports": {
     ".": {
@@ -42,7 +42,6 @@
     "@types/node": "^18.0.0",
     "postcss": "^8.4.14",
     "rollup": "^2.69.0",
-    "rollup-plugin-terser": "^7.0.2",
     "tslib": "^2.3.1",
     "typescript": "^4.6.4"
   }
