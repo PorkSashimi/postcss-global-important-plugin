@@ -57,6 +57,5 @@ module.exports = {
 You can use the [postcss-cli] to run  [postcss-global-important-plugin] from CLI:
 
 ```sh
-npm install postcss postcss-cli postcss-global-important-plugin -D
 npx postcss *.css --use postcss-global-important-plugin -d build/
 ```
