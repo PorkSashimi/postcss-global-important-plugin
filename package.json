@@ -16,6 +16,8 @@
     "url": "https://github.com/PorkSashimi/postcss-global-important-plugin"
   },
   "scripts": {
+    "test:run": "vitest",
+    "test:coverage": "vitest run --coverage",
     "dev": "cd example && pnpm i && pnpm run dev && cd ../",
     "pub": "pnpm run build && pnpm publish --access public",
     "clean": "rimraf dist/",
@@ -44,6 +46,7 @@
     "rimraf": "^3.0.2",
     "rollup": "^2.69.0",
     "tslib": "^2.3.1",
-    "typescript": "^4.6.4"
+    "typescript": "^4.6.4",
+    "vitest": "^0.16.0"
   }
 }
