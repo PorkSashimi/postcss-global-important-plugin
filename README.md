@@ -4,7 +4,7 @@
 [other PostCSS plugins]: https://github.com/postcss/postcss#plugins
 # postcss-global-important-plugin
 
-[postcss-global-important-plugin] that turns elements under :global in css-module into important
+[postcss-global-important-plugin] that turns elements under `:global` in css-module into important
 
 ``` diff
 .container {
@@ -46,7 +46,7 @@ And create a `postcss.config.js` with:
 ```js
 module.exports = {
   plugins: [
-    require('postcss-global-important-plugin')
+    'postcss-global-important-plugin'
   ]
 }
 ```
