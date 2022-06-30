@@ -1,23 +1,34 @@
 
-import { parse } from 'postcss';
+import postcss from 'postcss';
 import { assert, test } from 'vitest';
+import Plugin from '../src';
 
-test('sqrt', () => {
-  parse(
-    `
-    .container {
-      font-size: 14px;
-      :global .ant-btn {
-        font-weight: 500;
-        &:hover, &:focus, &:visited {
-          color: red;
-        }
+const input = `
+  .container {
+    font-size: 14px;
+    :global .ant-btn {
+      font-weight: 500;
+      &:hover, &:focus, &:visited {
+        color: red;
       }
     }
-    `,
-    {
+  }
+`;
 
+const output = `
+  .container {
+    font-size: 14px;
+    :global .ant-btn {
+      font-weight: 500 !important;
+      &:hover, &:focus, &:visited {
+        color: red !important;
+      }
     }
-  )
-  assert.equal(Math.sqrt(4), 3)
+  }
+`;
+
+test('sqrt', () => {
+  postcss([Plugin]).process(input).then(({ css }) => {
+    assert.equal(css, output);
+  })
 })
