@@ -14,7 +14,7 @@
     "dev": "cd example && pnpm i && pnpm run dev && cd ../",
     "pub": "pnpm run build && pnpm publish --access public",
     "clean": "rm -rf dist/ && rm -rf node_modules/",
-    "build": "pnpm clean && pnpm i && rollup --config rollup.config.ts"
+    "build": "pnpm clean && pnpm i && rollup --config rollup.config.ts --configPlugin typescript"
   },
   "keywords": [
     "css-module",
