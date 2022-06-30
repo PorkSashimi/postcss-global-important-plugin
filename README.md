@@ -34,9 +34,10 @@ turns css properties under `:global` in css-module into important
 
 ## Installation
 ```sh
+// use yarn 
 yarn add postcss-global-important-plugin -D
-```
-```sh
+
+// use npm 
 npm install postcss-global-important-plugin -D
 ```
 
