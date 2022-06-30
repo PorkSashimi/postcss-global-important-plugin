@@ -2,6 +2,7 @@
 [postcss-loader]:https://github.com/postcss/postcss-loader
 [postcss-global-important-plugin]:https://github.com/PorkSashimi/postcss-global-important-plugin
 [other PostCSS plugins]: https://github.com/postcss/postcss#plugins
+[postcss-cli]: https://github.com/postcss/postcss-cli
 # postcss-global-important-plugin
 
 [postcss-global-important-plugin] that turns elements under `:global` in css-module into important
@@ -21,7 +22,7 @@
 ```
 
 ## Installation
-```bash
+```sh
 npm install postcss-global-important-plugin -D
 ```
 
@@ -49,4 +50,13 @@ module.exports = {
     'postcss-global-important-plugin'
   ]
 }
+```
+
+### CLI
+
+You can use the [postcss-cli] to run  [postcss-global-important-plugin] from CLI:
+
+```sh
+npm install postcss postcss-cli postcss-global-important-plugin -D
+npx postcss *.css --use postcss-global-important-plugin -d build/
 ```
