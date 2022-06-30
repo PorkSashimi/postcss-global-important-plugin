@@ -8,10 +8,10 @@
   postcss-global-important-plugin
 </h1>
 
-<div style="text-align: center">
-<img alt="npm" src="https://img.shields.io/npm/v/postcss-global-important-plugin">
-<img alt="npm" src="https://img.shields.io/badge/coverage-100%25-green">
-<img alt="npm" src="https://img.shields.io/badge/test-passing-blue">
+<div align="center">
+  <img alt="npm" src="https://img.shields.io/npm/v/postcss-global-important-plugin">
+  <img alt="npm" src="https://img.shields.io/badge/coverage-100%25-green">
+  <img alt="npm" src="https://img.shields.io/badge/test-passing-blue">
 </div>
 
 ## Features
