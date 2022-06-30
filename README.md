@@ -4,7 +4,7 @@
 [other PostCSS plugins]: https://github.com/postcss/postcss#plugins
 [postcss-cli]: https://github.com/postcss/postcss-cli
 # postcss-global-important-plugin
-
+[npm-url]: https://www.npmjs.com/package/postcss-global-important-plugin
 ## Features
 turns css properties under `:global` in css-module into important
 
