@@ -3,7 +3,17 @@
 [postcss-global-important-plugin]:https://github.com/PorkSashimi/postcss-global-important-plugin
 [other PostCSS plugins]: https://github.com/postcss/postcss#plugins
 [postcss-cli]: https://github.com/postcss/postcss-cli
-# postcss-global-important-plugin
+
+<h1 align="center">
+  postcss-global-important-plugin
+</h1>
+
+<div style="text-align: center">
+<img alt="npm" src="https://img.shields.io/npm/v/postcss-global-important-plugin">
+<img alt="npm" src="https://img.shields.io/badge/coverage-100%25-green">
+<img alt="npm" src="https://img.shields.io/badge/test-passing-blue">
+</div>
+
 ## Features
 turns css properties under `:global` in css-module into important
 
