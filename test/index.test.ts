@@ -27,7 +27,7 @@ const output = `
   }
 `;
 
-test('sqrt', () => {
+test('postcss-global-important-plugin test case', () => {
   postcss([Plugin]).process(input).then(({ css }) => {
     assert.equal(css, output);
   })
