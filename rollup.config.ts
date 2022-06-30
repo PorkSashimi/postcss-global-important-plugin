@@ -18,8 +18,13 @@ const configuration: RollupOptions = {
   output: [
     {
       format: 'esm',
-      file: 'dist/index.js'
-    }
+      file: 'dist/index.ejs'
+    },
+    {
+      exports: 'named',
+      format: 'cjs',
+      file: 'dist/index.cjs'
+    },
   ]
 }
 

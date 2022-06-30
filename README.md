@@ -23,6 +23,9 @@ turns css properties under `:global` in css-module into important
 
 ## Installation
 ```sh
+yarn add postcss-global-important-plugin -D
+```
+```sh
 npm install postcss-global-important-plugin -D
 ```
 
