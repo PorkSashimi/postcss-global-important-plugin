@@ -11,6 +11,7 @@ specifiers:
   '@rollup/plugin-typescript': ^8.3.1
   '@types/node': ^18.0.0
   postcss: ^8.4.14
+  rimraf: ^3.0.2
   rollup: ^2.69.0
   tslib: ^2.3.1
   typescript: ^4.6.4
@@ -26,6 +27,7 @@ devDependencies:
   '@rollup/plugin-typescript': 8.3.2_qvmxwb53ll4ofwdq3bekbs74hi
   '@types/node': 18.0.0
   postcss: 8.4.14
+  rimraf: 3.0.2
   rollup: 2.73.0
   tslib: 2.4.0
   typescript: 4.6.4
@@ -1939,6 +1941,13 @@ packages:
       is-core-module: 2.9.0
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
+    dev: true
+
+  /rimraf/3.0.2:
+    resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
+    hasBin: true
+    dependencies:
+      glob: 7.2.3
     dev: true
 
   /rollup/2.73.0:
