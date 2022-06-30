@@ -1,11 +1,11 @@
 {
   "name": "postcss-global-important-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a postcss plugin that turns elements under :global in css-module into important",
   "exports": {
     ".": {
-      "require": "./dist/common.js",
-      "import": "./dist/esmodule.js"
+      "import": "./dist/esm.js",
+      "require": "./dist/com.js"
     }
   },
   "files": [
