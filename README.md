@@ -29,7 +29,7 @@ npm install postcss-global-important-plugin -D
 ## Usage
 
 ### Webpack
-In [webpack] you can use [postcss-loader] with `postcss-global-important-plugin` and [other PostCSS plugins].
+In [webpack] you can use [postcss-loader] with `postcss-global-important-plugin` and [other PostCSS plugins]
 
 ```js
 module.exports = {
